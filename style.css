@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 500px;
+    background: #025f3c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: aliceblue;
+    border-radius: 10px;
+}
+input{
+    color: azure;
+}
+
+ul{
+    width: 500px;
+    background: #024146;
+    padding: 15px;
+    margin: auto;
+    font-family: Helvetica;
+    color: aliceblue;
+    border-radius: 10px;
+}
+li{
+    margin-left: 100px;
+}
+h3{
+    width: 500px;
+    background: #024146;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: aliceblue;
+    border-radius: 10px;
+}
