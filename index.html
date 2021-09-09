@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
     <link rel="stylesheet" href="style.css">
 
@@ -16,7 +17,7 @@
     <ul>
         ► Registro
             <ul>
-                <li><a href="registro.html">                
+                <li><a>                
                     <button class="btn waves-effect waves-light" type="submit" name="action">Registrar Usuario
                     <i class="material-icons right"></i>
                   </button> <br>
@@ -35,7 +36,89 @@
             </li>
             </ul>        
       </ul>
+      <form class="col s12" id="form">
+        <h3>Registro Usuario</h3>
     
+        <div class="row" id="grupo_nombre">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">face</i>
+              <input id="nombre" name="nombre" type="text" class="validate">
+              <label for="icon_prefix">Nombre</label>
+            </div>
+          </div>
+          
+      
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">person_pin</i>
+              <input id="apellido" name="apellido" type="text" class="validate">
+              <label for="icon_prefix">Apellido</label>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">event</i>
+              <input id="fechaN" name="fecha de nacimiento" type="date" class="validate">
+              <label for="icon_prefix"></label>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="input-field col s9">
+              <i class="material-icons prefix">mail_outline</i>
+              <input id="email" name="email" type="text" class="validate" >
+              <label for="icon_prefix">email</label>
+            </div>
+    
+            <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">fingerprint</i>
+                  <input id="usuario" name="usuario" type="text" class="validate">
+                  <label for="icon_prefix">usuario</label>
+                </div>
+            </div>
+          
+            <div class="row">
+                 <div class="input-field col s6">
+                  <i class="material-icons prefix">lock_outline</i>
+                  <input id="password" name="password" name="pass" type="password" class="validate">
+                   <label for="icon_prefix">Password</label>
+             </div>
+                 
+    
+            <div class="row">
+                <div class="input-field col s6">
+                 <i class="material-icons prefix">vpn_key</i>
+                 <input id="rpassword" name="rpassword" type="password" class="validate">
+                  <label for="icon_prefix">Confirmar password</label>
+             </div>
+    
+             <button class="btn waves-effect waves-light" type="submit" name="action">Registrar
+                <i class="material-icons right">beenhere</i>
+              </button> <br><br>
+    
+             <p>
+                <label>
+                  <input type="radio" onclick="showDiv()" />
+                  <span>A sufrido enfermedades</span>
+                </label>
+              </p>
+              <div id="mostrar" class="row" style="display: none;" >
+                <label>
+                    <input type="radio" onclick="showDiv1()"/>
+                    <span>Si</span>
+                  </label>
+                  <label>
+                    <input type="radio" />
+                    <span>No</span>
+                  </label>
+                </div>
+                <div id="textarea" style="display: none;">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </form> 
+            <script src="script.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ const usuarioInput = document.querySelector('#usuario');
 const passwordInput = document.querySelector('#password');
 const rpasswordInput = document.querySelector('#rpassword');
 const emailInput = document.querySelector('#email');
-const formulario = document.querySelector('#formulario');
+const formulario = document.querySelector('#form');
 
 nombreInput.addEventListener('input', leerTexto);
 apellidoInput.addEventListener('input', leerTexto);
@@ -77,4 +77,7 @@ function mostrarAlerta(mensaje, error = null) {
 
 function showDiv(){
     document.getElementById('mostrar').style.display = '';
+}
+function showDiv1(){
+    document.getElementById('textarea').style.display = '';
 }

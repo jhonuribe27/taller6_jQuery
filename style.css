@@ -30,12 +30,29 @@ li{
     margin-left: 100px;
 }
 h3{
-    width: 500px;
+    width: 400px;
     background: #024146;
     padding: 30px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: Helvetica;
     color: aliceblue;
+    border-radius: 10px;
+}
+
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
     border-radius: 10px;
 }
