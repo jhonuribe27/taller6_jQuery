@@ -1,16 +1,16 @@
 #dusuario{
     margin-left: 1px;
-<<<<<<< Updated upstream
+
 }
 #dpassword{
     margin-left: 1px;
 }
-=======
-}
+
+
 #dpassword{
     margin-left: 1px;
 }
->>>>>>> Stashed changes
+
 #boton{
     margin-left: 10px;
 }
@@ -27,7 +27,7 @@
     background-color: rgb(185, 0, 0);
     text-align: center;
     padding: 1rem;
-    color: var(--blanco);
+    color: floralwhite;
     text-transform: uppercase;
     border-radius: 10px;
 }
@@ -35,7 +35,16 @@
     background-color: rgb(74, 185, 0);
     text-align: center;
     padding: 1rem;
-    color: var(--blanco);
+    color: floralwhite;
     text-transform: uppercase;
     border-radius: 10px;
+}
+#registro{
+    display: none;
+}
+#tabla{
+    display: none;
+}
+#edad{
+    color: red;
 }
