@@ -29,7 +29,7 @@
         ► Grillas
             <ul>
                 <li><a href="grilla.html">                   
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Grilla en gQuery
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Datos
                     <i class="material-icons right"></i>
                   </button> <br>
                 </a>
@@ -71,7 +71,7 @@
               <label for="icon_prefix">email</label>
             </div>
     
-            <div class="row">
+            <div id="dusuario" class="row">
                 <div class="input-field col s6">
                   <i class="material-icons prefix">fingerprint</i>
                   <input id="usuario" name="usuario" type="text" class="validate">
@@ -79,7 +79,7 @@
                 </div>
             </div>
           
-            <div class="row">
+            <div id="dpassword" class="row">
                  <div class="input-field col s6">
                   <i class="material-icons prefix">lock_outline</i>
                   <input id="password" name="password" name="pass" type="password" class="validate">
@@ -94,31 +94,41 @@
                   <label for="icon_prefix">Confirmar password</label>
              </div>
     
-             <button class="btn waves-effect waves-light" type="submit" name="action">Registrar
+             <button id="boton" class="btn waves-effect waves-light" type="submit" name="action">Registrar
                 <i class="material-icons right">beenhere</i>
               </button> <br><br>
     
-             <p>
+             <p id="ase">
                 <label>
                   <input type="radio" onclick="showDiv()" />
                   <span>A sufrido enfermedades</span>
                 </label>
               </p>
               <div id="mostrar" class="row" style="display: none;" >
-                <label>
+                <label >
                     <input type="radio" onclick="showDiv1()"/>
-                    <span>Si</span>
+                    <span >Si</span>
                   </label>
-                  <label>
+                  <label >
                     <input type="radio" />
                     <span>No</span>
                   </label>
                 </div>
-                <div id="textarea" style="display: none;">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
+               
+                <div class="row" id="textarea" style="display: none;">
+                    <div class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          
+                          <input type="text" id="autocomplete-input" class="autocomplete">
+                          <label for="autocomplete-input">¿Que enfermedades a sufrido?</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </form> 
-            <table id="tabla" border="1">    
+            
+            <table>    
               <thead>
                   <tr>
                       
@@ -155,9 +165,8 @@
       
               </tbody>
           </table>
+        
             <script src="script.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
-
-

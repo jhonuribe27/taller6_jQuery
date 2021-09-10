@@ -1,45 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#dusuario{
+    margin-left: 1px;
 }
-form{
-    width: 500px;
-    background: #025f3c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 20px;
-    font-family: Helvetica;
-    color: aliceblue;
-    border-radius: 10px;
+#dpassword{
+    margin-left: 1px;
 }
-input{
-    color: azure;
+#boton{
+    margin-left: 10px;
 }
-
-ul{
-    width: 500px;
-    background: #024146;
-    padding: 15px;
-    margin: auto;
-    font-family: Helvetica;
-    color: aliceblue;
-    border-radius: 10px;
+#ase{
+    margin-left: 20px;
 }
-li{
+#mostrar{
     margin-left: 100px;
 }
-h3{
-    width: 400px;
-    background: #024146;
-    padding: 30px;
-    margin: auto;
-    margin-top: 10px;
-    font-family: Helvetica;
-    color: aliceblue;
-    border-radius: 10px;
+#textarea{
+    margin-left: 100px;
 }
-
 .error {
     background-color: rgb(185, 0, 0);
     text-align: center;
